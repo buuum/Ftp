@@ -1,0 +1,27 @@
+{
+  "name": "buuum/ftp",
+  "type": "library",
+  "description": "Library for PHP FTP functions",
+  "homepage": "https://github.com/buuum/Ftp",
+  "keywords": [
+    "ftp"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alfons Martinez",
+      "email": "alfonsmartinezparra@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Buuum\\Ftp\\": "src/Ftp"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
