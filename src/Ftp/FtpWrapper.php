@@ -87,6 +87,11 @@ class FtpWrapper
         return $this->makedirs($path);
     }
 
+    public function cdUp()
+    {
+        return @ftp_cdup($this->connection->getStream());
+    }
+
     public function rmdir($directory)
     {
         return ftp_rmdir($this->connection->getStream(), $directory);
